@@ -34,12 +34,3 @@ def wiki_start(message):
 
 # BOT start
 bot.polling(none_stop=True, interval=0)
-
-
-# функция для прогноза погоды
-# @bot.message_handler(commands=["weather"])
-# def weather_start(message):
-# 	bot.reply_to(message, "Напишите запрос погоды!")
-# 	@bot.message_handler(content_types=["text"])
-# 	def weather(message):
-# 		bot.reply_to(message, "Напишите запрос Погоды!")
